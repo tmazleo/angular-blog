@@ -1,0 +1,15 @@
+.container__menu-bar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__menu-bar ul li {
+    margin-right: 20px;
+    list-style: none;
+    transition: transform .8s;
+}
+
+.container__menu-bar ul li:hover {
+    transform: scale(1.12);
+    transition: transform .2s;
+}
