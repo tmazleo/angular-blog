@@ -1,11 +1,13 @@
 .container__small-card {
     width: 40vw;
-
+    background-color: #111;
 }
 
 .container__small-card-content {
     display: flex;
     flex-direction: row;
+    background-color: #111;
+
 }
 
 .small-card__picture img {
@@ -13,10 +15,21 @@
     min-width: 200px;
     height: 100px;
     margin-right: 20px;
+
+}
+
+.small-card__picture {
+    background-color: #111;
 }
 
 .small-card__title {
+    background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.small-card__title h1,
+.small-card__title a {
+    background-color: #111;
 }

@@ -7,22 +7,38 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
+    background-color: #111;
 }
 
 .big-card__title h1 {
-    margin-top: 10px;
+
     font-size: 20px;
+
+
+}
+
+.big-card__title a {
+    background-color: #111;
 }
 
 .big-card__description {
     margin-top: 10px;
+    background-color: #111;
+
 }
 
 .big-card__description p a {
+    background-color: #111;
     color: gray;
 
 }
 
 .big-card__picture img {
+
     width: 100%
+}
+
+.big-card__picture {
+    background-color: #111;
+
 }

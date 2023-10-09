@@ -1,6 +1,17 @@
 .container__articles {
-    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: #111;
+}
+
+.articles__main {
+    background-color: #111;
+
+}
+
+.articles__others {
+    background-color: #111;
+
 }
